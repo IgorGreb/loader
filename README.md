@@ -2,6 +2,8 @@
 
 Мінімалістичний утиліта з сучасним неоновим лоадером. У застосунку є вітрина з кількома пресетами та підказками щодо інтеграції, а головний елемент `AuroraLoader` можна забрати у власний проєкт.
 
+![Aurora Loader screenshot](assets/screenshots/aurora_loader_showcase.svg)
+
 ## Основні можливості
 
 - **Готовий до використання віджет** із параметрами `size`, `colors`, `duration`, `showGlow`, `label`.
@@ -65,4 +67,3 @@ class LoadingCard extends StatelessWidget {
 - `backgroundColor` / `gradientRotation` — контроль настрою карточки.
 
 Вбудована вітрина (`LoaderShowcasePage`) демонструє кілька варіантів використання: можна вирізати потрібний приклад або впровадити `AuroraLoader` у власні екрани завантаження, сплеші чи модальні вікна.
-

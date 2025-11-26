@@ -1,0 +1,76 @@
+<svg width="768" height="1664" viewBox="0 0 768 1664" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#050913"/>
+      <stop offset="45%" stop-color="#0d1f2f"/>
+      <stop offset="100%" stop-color="#1b4652"/>
+    </linearGradient>
+    <radialGradient id="loaderBlue" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#7bd1ff" stop-opacity="0.95"/>
+      <stop offset="65%" stop-color="#3d69ff"/>
+      <stop offset="100%" stop-color="#192245"/>
+    </radialGradient>
+    <radialGradient id="loaderOrange" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffe373"/>
+      <stop offset="55%" stop-color="#ff8a3d"/>
+      <stop offset="100%" stop-color="#572923"/>
+    </radialGradient>
+    <radialGradient id="loaderViolet" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f4c7ff"/>
+      <stop offset="55%" stop-color="#b45bfd"/>
+      <stop offset="100%" stop-color="#301a55"/>
+    </radialGradient>
+    <radialGradient id="loaderGreen" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#c8ffda"/>
+      <stop offset="55%" stop-color="#24f6a9"/>
+      <stop offset="100%" stop-color="#10483a"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#021d27" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <rect width="768" height="1664" fill="url(#bg)" rx="60"/>
+  <text x="384" y="220" text-anchor="middle" font-family="'SF Pro Display', 'Inter', sans-serif" font-weight="700" font-size="64" fill="#ffffff">Aurora Loader</text>
+  <text x="384" y="300" text-anchor="middle" font-family="'SF Pro Display', 'Inter', sans-serif" font-size="28" fill="#e1e5f0" opacity="0.86">
+    <tspan x="384" dy="0">Готовий флаттер-елемент з неоновим</tspan>
+    <tspan x="384" dy="36">ефектом та плавною анімацією. Використовуйте</tspan>
+    <tspan x="384" dy="36">його як повноекранний лоадер, заставку або</tspan>
+    <tspan x="384" dy="36">частину картки/модуля.</tspan>
+  </text>
+  <!-- loader row 1 -->
+  <g transform="translate(120,480)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="135" fill="#010914"/>
+    <circle cx="0" cy="0" r="120" fill="url(#loaderBlue)"/>
+    <circle cx="-40" cy="-40" r="32" fill="#5febff" opacity="0.9"/>
+    <circle cx="65" cy="-15" r="42" fill="#8c5bff" opacity="0.85"/>
+    <circle cx="45" cy="60" r="28" fill="#4b9dff"/>
+  </g>
+  <text x="120" y="675" text-anchor="middle" font-family="'SF Pro Display', 'Inter', sans-serif" font-size="28" fill="#dbe5ff" opacity="0.88">Aurora</text>
+  <g transform="translate(480,480)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="135" fill="#010914"/>
+    <circle cx="0" cy="0" r="120" fill="url(#loaderOrange)"/>
+    <circle cx="-45" cy="-30" r="34" fill="#ffe373"/>
+    <circle cx="50" cy="-15" r="40" fill="#ffa04a"/>
+    <circle cx="35" cy="65" r="32" fill="#ffca6b"/>
+  </g>
+  <text x="480" y="675" text-anchor="middle" font-family="'SF Pro Display', 'Inter', sans-serif" font-size="28" fill="#dbe5ff" opacity="0.88">Sunset</text>
+  <!-- loader row 2 -->
+  <g transform="translate(120,950)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="135" fill="#010914"/>
+    <circle cx="0" cy="0" r="120" fill="url(#loaderViolet)"/>
+    <circle cx="-35" cy="-25" r="32" fill="#d889ff"/>
+    <circle cx="60" cy="-5" r="45" fill="#90b0ff" opacity="0.8"/>
+    <circle cx="25" cy="70" r="30" fill="#6cd1ff"/>
+  </g>
+  <text x="120" y="1145" text-anchor="middle" font-family="'SF Pro Display', 'Inter', sans-serif" font-size="28" fill="#dbe5ff" opacity="0.88">Glass</text>
+  <g transform="translate(480,950)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="135" fill="#010914"/>
+    <circle cx="0" cy="0" r="120" fill="url(#loaderGreen)"/>
+    <circle cx="-50" cy="-20" r="36" fill="#adffc5"/>
+    <circle cx="55" cy="-10" r="44" fill="#5efcab"/>
+    <circle cx="40" cy="70" r="32" fill="#6beab9"/>
+  </g>
+  <text x="480" y="1145" text-anchor="middle" font-family="'SF Pro Display', 'Inter', sans-serif" font-size="28" fill="#dbe5ff" opacity="0.88">Mint Pulse</text>
+  <rect x="180" y="1350" width="408" height="14" rx="7" fill="#21404c"/>
+  <rect x="180" y="1350" width="260" height="14" rx="7" fill="#808fb0" opacity="0.85"/>
+</svg>
