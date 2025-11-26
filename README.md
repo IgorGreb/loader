@@ -2,7 +2,7 @@
 
 Мінімалістичний утиліта з сучасним неоновим лоадером. У застосунку є вітрина з кількома пресетами та підказками щодо інтеграції, а головний елемент `AuroraLoader` можна забрати у власний проєкт.
 
-![Aurora Loader screenshot](assets/screenshots/aurora_loader_showcase.svg)
+![Aurora Loader screenshot](assets/screenshots/aurora_loader_showcase.png)
 
 ## Основні можливості
 
