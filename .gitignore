@@ -1,0 +1,32 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Build artifacts
+build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS / Linux
+.DS_Store
+*.swp
+*.swo
+
+# Packaging outputs
+aurora-loader.zip
